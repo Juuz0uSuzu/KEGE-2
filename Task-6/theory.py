@@ -1,0 +1,12 @@
+from turtle import *
+screensize(10000, 10000)
+tracer(0)
+forward(100)
+fd(100)
+right(90)
+penup()
+backward(100)
+update()
+dot(30, 'green')
+bk(100)
+done()
