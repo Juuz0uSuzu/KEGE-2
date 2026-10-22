@@ -1,0 +1,37 @@
+from turtle import *
+screensize(10_000, 10_000)
+tracer(0)
+k=10
+left(90)
+for i in range(3):
+    fd(3*k)
+    rt(90)
+    fd(4*k)
+    lt(90)
+rt(180)
+fd(9*k)
+rt(90)
+fd(12*k)
+up()
+bk(2*k)
+lt(90)
+down()
+for i in range(3):
+    fd(2*k)
+    lt(90)
+    fd(3*k)
+    rt(90)
+lt(180)
+fd(8*k)
+lt(90)
+fd(9*k)
+lt(90)
+fd(2*k)
+up()
+for x in range(0, 13):
+    for y in range(-6, 10):
+        teleport(x*k, y*k)
+        dot(3, 'red')
+print(12+24+36-18+36+12+6)
+update()
+done()
