@@ -1,5 +1,10 @@
 from itertools import product
-from timeit import repeat
+
+# Буквы в алфавитном порядке
+alph = sorted('ФОКУС')
+
+# Буквы в обратном алфавитном порядке
+alph = sorted('ФОКУС', reverse=True)
 
 # Формирует все возможные комбинации с повторениями
 for val in product('ФОКУС', repeat=5):

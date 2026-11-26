@@ -1,4 +1,3 @@
-from pkgutil import resolve_name
 from turtle import *
 screensize(10_000, 10_000)
 tracer(0)
